@@ -11,9 +11,7 @@ app.use(express.urlencoded({extended: false}));
 
 // Routes
 app.use(require('./routes/calls'));
-app.use(require('./routes/agenda'));
-app.use(require('./routes/reporte'));
-//app.use(require('./routes/resultado'));
+
 
 app.listen(3000);
 console.log('Server on port', 3000);
